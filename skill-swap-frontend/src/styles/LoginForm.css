@@ -1,0 +1,63 @@
+/* Base styling for the login form container */
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  background: linear-gradient(to top left, #16222A, #3A6073);
+  color: #FFF;
+  border-radius: 8px;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+  width: 90%;
+  max-width: 360px;
+  margin: 0 auto;
+  animation: fadeIn 0.8s ease-out;
+  font-family: 'Nunito', sans-serif;
+}
+
+/* Keyframes for animations */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Styling for form elements and focus effects with transitions */
+.login-form input, .login-form button {
+  width: 90%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 2px solid transparent;
+  background-color: #f3f3f3;
+  transition: all 0.4s ease-in-out;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.login-form input:focus {
+  border-color: #3498db;
+  background-color: #eaf6ff;
+  outline: none;
+  transform: scale(1.05);
+}
+
+.login-form button {
+  background-color: #3498db;
+  color: white;
+  cursor: pointer;
+  transform: translateY(0);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.login-form button:hover {
+  background-color: #2874a6;
+  transform: translateY(-3px) scale(1.02);
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+  .login-form {
+    padding: 20px;
+    margin-top: 0;
+  }
+}

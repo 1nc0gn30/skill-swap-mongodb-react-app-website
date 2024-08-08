@@ -1,0 +1,77 @@
+/* Main container for the form */
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    margin-top: 10vh ;
+    max-width: 800px;
+    padding-bottom: 20vh;
+  }
+  
+  /* Style for each form field */
+  .form-field {
+    margin: 10px;
+    padding: 10px;
+    width: 80%;
+  }
+  
+  /* Style for each input and textarea */
+  .input-text,
+  .textarea-input {
+    width: 100%;
+    padding: 8px;
+    border-radius: 4px;
+    border: none;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  }
+  
+  /* Style for labels */
+  .label-text {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  /* Style for buttons */
+  .button-main {
+    cursor: pointer;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #3498db;
+    color: white;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button-main:hover {
+    background-color: #2980b9;
+  }
+  
+  .button-secondary {
+    cursor: pointer;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #95a5a6;
+    color: white;
+    margin-left: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button-secondary:hover {
+    background-color: #7f8c8d;
+  }
+  
+  .best-practices {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+  }

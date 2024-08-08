@@ -1,0 +1,51 @@
+/* Base styling for the privacy policy container */
+.privacy-policy {
+    padding: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    line-height: 1.6;
+    font-size: 14px;
+    padding-top: 10vh;
+    padding-bottom: 15vh;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    font-family: 'Nunito', sans-serif;
+    animation: fadeIn 1s ease-in-out;
+}
+
+/* Keyframes for fade-in animation */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* Styling headers within the privacy policy */
+.privacy-policy h1, .privacy-policy h2 {
+    transition: color 0.3s ease;
+}
+
+.privacy-policy h1:hover {
+    color: #0056b3; /* Subtle change to indicate interactivity */
+}
+
+.privacy-policy h2:hover {
+    color: #007bff; /* Slightly lighter blue for secondary headers */
+}
+
+/* Styling for paragraphs */
+.privacy-policy p {
+    margin-bottom: 15px;
+    transition: color 0.2s ease-in-out;
+}
+
+.privacy-policy p:hover {
+    color: #333; /* Darken text on hover for emphasis */
+}
+
+/* Hover effects for the container to add depth */
+.privacy-policy:hover {
+    transform: scale(1.01); /* subtle zoom to draw attention */
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}

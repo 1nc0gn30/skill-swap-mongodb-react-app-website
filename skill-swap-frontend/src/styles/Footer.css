@@ -1,0 +1,35 @@
+/* Base styling for the footer */
+.footer {
+  width: 100%;
+  background: linear-gradient(to right, #3333335e, #000000); /* Dark gradient background for visual depth */
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+ 
+  
+  z-index: 1000;
+  box-shadow: 0 -2px 5px rgba(0,0,0,0.3); /* Subtle top shadow for a lifting effect */
+  transition: background 0.5s ease; /* Smooth transition for background changes */
+  height: 80px;
+}
+
+/* Styling for the footer content container */
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+/* Styling for links within the footer */
+.footer a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  transition: color 0.3s ease, transform 0.3s ease-out; /* Smooth transitions for color and scaling */
+}
+
+.footer a:hover {
+  color: #1e90ff; /* Bright highlight color on hover */
+  transform: scale(1.1); /* Slight scaling up on hover */
+}

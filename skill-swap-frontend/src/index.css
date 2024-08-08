@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* styles/HomeIcon.css or in your App.css */
+.home-icon {
+  position: fixed;
+  top: 10px;
+  right: 20px;
+  cursor: pointer;
+  font-size: 20px; /* Adjust size as needed */
+  z-index: 1000; /* Ensure it stays on top of other content */
+}
+
+.logout-button {
+  background-color: rgb(62, 207, 159);
+  color: antiquewhite;
+  height: 50px;
+  width: 100px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #2c3e50;
+}
+
+.tracking-in-contract {
+  -webkit-animation: tracking-in-contract 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+          animation: tracking-in-contract 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+
+@-webkit-keyframes tracking-in-contract {
+0% {
+  letter-spacing: 0.5em;
+  opacity: 0;
+}
+40% {
+  opacity: 0.6;
+}
+100% {
+  letter-spacing: normal;
+  opacity: 1;
+}
+}
+@keyframes tracking-in-contract {
+0% {
+  letter-spacing: 0.5em;
+  opacity: 0;
+}
+40% {
+  opacity: 0.6;
+}
+100% {
+  letter-spacing: normal;
+  opacity: 1;
+}
+}
+
+.slide-in-blurred-top {
+	-webkit-animation: slide-in-blurred-top 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+	        animation: slide-in-blurred-top 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+}
+
+ @-webkit-keyframes slide-in-blurred-top {
+  0% {
+    -webkit-transform: translateY(-1000px) scaleY(2.5) scaleX(0.2);
+            transform: translateY(-1000px) scaleY(2.5) scaleX(0.2);
+    -webkit-transform-origin: 50% 0%;
+            transform-origin: 50% 0%;
+    -webkit-filter: blur(40px);
+            filter: blur(40px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0) scaleY(1) scaleX(1);
+            transform: translateY(0) scaleY(1) scaleX(1);
+    -webkit-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+    -webkit-filter: blur(0);
+            filter: blur(0);
+    opacity: 1;
+  }
+}
+@keyframes slide-in-blurred-top {
+  0% {
+    -webkit-transform: translateY(-1000px) scaleY(2.5) scaleX(0.2);
+            transform: translateY(-1000px) scaleY(2.5) scaleX(0.2);
+    -webkit-transform-origin: 50% 0%;
+            transform-origin: 50% 0%;
+    -webkit-filter: blur(40px);
+            filter: blur(40px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0) scaleY(1) scaleX(1);
+            transform: translateY(0) scaleY(1) scaleX(1);
+    -webkit-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+    -webkit-filter: blur(0);
+            filter: blur(0);
+    opacity: 1;
+  }
+}
+
+.nft-link {
+  
+  font-family: "Luckiest Guy", cursive;
+  color: rgb(29, 163, 253);
+  background-color: rgb(48, 48, 48);
+  text-decoration-color: rgb(250, 98, 42);
+  border-radius: 20px;
+  border: 1px solid rgb(122, 122, 122);
+  transition: all 0.3s ease; /* Smooth transition effect */
+}
+
+.nft-link:hover {
+  color: rgb(250, 98, 42); /* Change text color on hover */
+  background-color: rgb(29, 163, 253); /* Change background color on hover */
+  border: 1px solid rgb(250, 98, 42); /* Change border color on hover */
+  text-decoration-color: rgb(29, 163, 253); /* Change text decoration color on hover */
+}

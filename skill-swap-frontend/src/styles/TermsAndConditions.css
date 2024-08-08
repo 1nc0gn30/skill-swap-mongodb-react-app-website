@@ -1,0 +1,44 @@
+/* Base styling for the terms and conditions container */
+.terms-conditions {
+    padding: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    line-height: 1.6;
+    font-size: 14px;
+    padding-top: 10vh;
+    padding-bottom: 15vh;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    font-family: 'Nunito', sans-serif;
+    animation: fadeIn 1s ease-in-out;
+}
+
+/* Keyframes for fade-in animation */
+@keyframes fadeIn {
+    0% { opacity: 0; transform: translateY(10px); }
+    100% { opacity: 1; transform: translateY(0); }
+}
+
+/* Styling headers within the terms and conditions */
+.terms-conditions h1, .terms-conditions h2 {
+    color: #000000;
+    transition: color 0.3s ease;
+}
+
+.terms-conditions h1:hover, .terms-conditions h2:hover {
+    color: #0056b3; /* subtle change to indicate interactivity */
+}
+
+/* Styling for unordered lists within the terms */
+.terms-conditions ul {
+    padding-left: 20px;
+    list-style-type: disc; /* Ensures clarity of list items */
+}
+
+/* Hover effects for the container to add depth */
+.terms-conditions:hover {
+    transform: scale(1.01); /* subtle zoom to draw attention */
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}

@@ -1,0 +1,20 @@
+.guidelines-container {
+    background-color: #f7f7f7;
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.guidelines-container h2 {
+    color: #2c3e50;
+}
+
+.guidelines-container p, .guidelines-container li {
+    color: #666;
+    line-height: 1.6;
+}
+
+.guidelines-container ul {
+    padding-left: 20px;
+}

@@ -1,0 +1,108 @@
+/* Base styling for the skills list page */
+.skills-container {
+  padding: 20px;
+  background-color: #2f3640;
+  color: #f5f6fa;
+  font-family: 'Inter', sans-serif; /* Updated to a more modern and readable font */
+  min-height: 100vh;
+  padding-top: 10vh;
+  padding-bottom: 20vh;
+  transition: background-color 0.5s ease; /* Smooth background color transition */
+  
+}
+
+/* Header styling with added text shadow for depth */
+.skills-container h1 {
+  color: #00a8ff;
+  text-align: center;
+  padding-bottom: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  transition: color 0.3s ease; /* Color transition for interactive hover effect */
+}
+
+.skills-container h1:hover {
+  color: #0097e6; /* Slightly darker shade on hover */
+}
+
+/* Styling for the list of skills with subtle hover effects */
+.skills-list {
+  list-style: none;
+  padding: 0;
+  margin: 20px auto;
+  max-width: 800px; /* Limits the maximum width for better readability */
+  animation: fadeIn 1s ease-out; /* Fade-in animation for the list */
+  border-radius: 19px;
+background: linear-gradient(145deg, #2a313a, #323a44);
+box-shadow:  23px 23px 46px #14171b,
+             -23px -23px 46px #4a5565;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.skills-list li {
+  background-color: #353b48;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease-in-out; /* Smoother transition for hover effects */
+}
+
+.skills-list li:hover {
+  background-color: #3d4452; /* Lighten background on hover for focus */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Enhanced shadow for 3D effect */
+}
+
+/* Styling individual skill details for clarity */
+.skill-detail {
+  margin: 5px 0;
+  line-height: 1.6;
+}
+
+/* Emphasize certain text with subtle glow */
+.skill-detail strong {
+  color: #e1b12c;
+  text-shadow: 1px 1px 2px black; /* Adding text shadow for glowing effect */
+}
+
+/* Enhanced button styling with dynamic effects */
+.button-post-new {
+  display: block;
+  width: 200px;
+  margin: 20px auto;
+  padding: 10px;
+  background-color: #4cd137;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s, box-shadow 0.2s;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.4);
+}
+
+.button-post-new:hover {
+  background-color: #44bd32;
+  transform: translateY(-3px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.5); /* More pronounced shadow on hover */
+}
+
+/* Responsive design adjustments */
+@media (max-width: 768px) {
+  .skills-list {
+    max-width: 90%;
+  }
+
+  .button-post-new {
+    width: 100%;
+  }
+}
+
+.title-search {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
