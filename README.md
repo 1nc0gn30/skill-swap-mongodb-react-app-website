@@ -1,7 +1,20 @@
 <!-- xonettn -->
 <div align="center">
 
-# 📦 Skill Swap Mongodb React App Website
+# 📦 📦 Skill Swap Mongodb React App Website
+
+A project by Neal Frazier
+
+
+![Deploy](https://img.shields.io/badge/Deployed-Netlify-00C7B7?logo=netlify&logoColor=white)
+
+</div>
+
+---
+
+<!-- xonettn -->
+<div align="center">
+
 
 A project by Neal Frazier
 
@@ -62,6 +75,14 @@ This project can be deployed to Netlify, Vercel, or any static host.
 
 ---
 *This README was enhanced as part of the neals-projects-2026 batch update.*
+
+---
+
+<div align="center">
+
+**[xonettn]** · Built by [Neal Frazier](https://github.com/1nc0gn30) · [@AshAmplifies](https://twitter.com/AshAmplifies)
+
+</div>
 
 ---
 
